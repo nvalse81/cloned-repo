@@ -6,6 +6,11 @@
   .title {
     font-size: 28px;
     margin-bottom: 25px;
+    max-width: max-content;
+    cursor: pointer;
+  }
+  &:hover {
+    color: grey;
   }
 
   .preview {
